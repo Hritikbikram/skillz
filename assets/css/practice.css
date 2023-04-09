@@ -32,8 +32,6 @@ background-color: #1E293B;
 }
 .navigations
 {
-  /* display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(2,1fr)); */
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -62,7 +60,7 @@ padding-right:25px;
   display: grid;
   background-color: #1E293B;
   padding: 15px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
@@ -110,9 +108,10 @@ input
 
 
 .side2 img{
-  width: 80%;
+  width: 85%;
   border-radius: 20px;
 position: absolute;
+margin-top: 8%;
 }
 
 
@@ -184,9 +183,7 @@ position: absolute;
 .review
 {
   display: grid;
- /* grid-template-columns: repeat(5,1fr); */
  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-/* grid-template-columns: repeat(4,1fr); */
 gap: 10px;
 padding-top: 20px;
 font-family: 'Nunito','san sarif';
@@ -341,7 +338,6 @@ list-style: none;
 .testo
 {
   display: grid;
-  /* grid-template-columns: repeat(4,1fr); */
  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   align-items: start;
   gap:10px
